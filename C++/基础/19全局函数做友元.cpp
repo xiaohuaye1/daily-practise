@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 class building{
-    friend void gay(building *a);//可以访问building私有成员
+    friend void gay(building *a);//void gay这个函数是好朋友，可以访问building私有成员
     public:
     building(){
         m_sittingroom="客厅";

@@ -18,7 +18,7 @@ public:
     string m_livingroom;
 };
 
-// 实现gay类的成员函数
+//类外成员函数 实现gay类的成员函数
 void gay::visit() {
     if (a) {
         cout << "访问建筑：" << a->m_livingroom << endl;
