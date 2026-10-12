@@ -14,11 +14,12 @@ void test1(){
     if(!oka.is_open()){
         cout<<"失败"<<endl;
     }
-    // //4读
-    // char a[1024]={0};
-    // while(oka>>a){
-    //     cout<<a<<endl;
-    // }
+    //4读
+    char a[1024]={0};
+    while(oka>>a){
+        cout<<a<<endl;
+    }
+    
     //读2
     string b;
     while(getline(oka,b)){
